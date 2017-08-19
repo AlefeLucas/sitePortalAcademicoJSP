@@ -1,0 +1,36 @@
+/*﻿@charset "utf-8"; */
+/* CSS Document */
+
+.container-fluid {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.col-md-7 {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.btn-success-login,
+.btn-login {
+    background-color: #0c2d4e;
+    border-color: #0c2d4e;
+    color: #ffffff;
+    height: 50px;
+	border-radius: 4px;
+}
+.top-login {
+	margin-top: 150px;
+}
+.texto-login small a {
+	color: #3e454d;
+	font-weight: bold;
+	text-align: right !important;
+}
+.texto-login {
+	text-align: right !important;
+}
+.btn-login:hover {
+    background: #519DE9 !important;
+	color: #0c2d4e !important;
+	border: 1px solid #0c2d4e !important;
+	border-radius: 5px !important;
+}

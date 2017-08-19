@@ -1,0 +1,110 @@
+
+
+body, html{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
+
+
+header{
+    background-color: #e5efe5;
+    width: 100%;
+    text-align: center;
+    font-family: Courier new, sans-serif;    
+    min-width: 60em;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav{
+    background-color:#0c2d4e;
+    padding: 0;
+    margin: 0;
+    padding-top: 0.1em;
+    display: block;
+    font-family: inherit;
+    color: #e5efe5;
+    height: 1.5em;
+}
+
+.menu{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    font-family: inherit;
+}
+
+
+.menu > li{
+    position: relative; 
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: inherit;
+    font-family: inherit;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: -0.3em;
+    
+}
+
+#selected{
+    color: #044423;
+    background-color: #5392D2;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding-left: 0.2em;
+    padding-right : 0.2em;
+    padding-top: 0.1em;
+    margin-top: -0.1em;
+    display: block;
+    color: #e5efe5;
+    font-family: inherit;
+    height: inherit;
+
+}
+
+.menu li a:hover{
+    background-color:#081f36;
+}
+
+.menu li ul{
+    position: absolute;
+    padding: 0;
+    display: none;
+    
+    background-color:#0c2d4e;
+    
+    font-family: inherit;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+}
+
+.menu li ul li{
+       
+       white-space:nowrap;
+    display: block;
+    font-family: inherit;
+
+}
+
+

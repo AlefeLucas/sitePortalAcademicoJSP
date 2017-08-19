@@ -1,0 +1,13 @@
+.consulta tr:first-of-type{
+    background-color: #0C2D4E;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+    border-radius: inherit;
+}
+
+.consulta tr:nth-of-type(2){
+    background-color: #E5EFE5;    
+    font-weight: bold;
+}

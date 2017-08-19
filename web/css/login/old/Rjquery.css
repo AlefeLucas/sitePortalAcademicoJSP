@@ -1,0 +1,60 @@
+﻿/*
+*  Notify Bar - jQuery plugin
+*
+*  Copyright (c) 2009-2010 Dmitri Smirnov
+*
+*  Licensed under the MIT license:
+*  http://www.opensource.org/licenses/mit-license.php
+*  
+*  Version: 1.2
+*
+*  Project home:
+*  http://www.dmitri.me/blog/notify-bar
+*/
+
+.jquery-notify-bar {
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:32768;
+  background-color:#efefef;
+  font-size:16px;
+  color:Black;
+  text-align:center;
+  font-family: Arial, Verdana, sans-serif;
+  padding:12px 0px;
+  border-bottom:1px solid #bbb;
+}
+.jquery-notify-bar.error {
+  color:White;
+  background-color:#C90707;
+  border: 1px solid #F0C1BD;
+}
+.jquery-notify-bar.success {
+   color:Black;
+  background-color:#DDFFDD;
+  border: 1px solid #99CC99;
+
+}
+.notify-bar-close {
+  position:absolute;
+  left:97%;
+ 
+    color:transparent;
+
+}
+
+
+.notify-bar-close a {
+
+    text-decoration:none;
+}
+
+.jquery-notify-bar.alert
+{
+    Color: Black;
+    background-color:#FFF5DB;
+    border:  1px solid #FFD98C;
+    }
+    
